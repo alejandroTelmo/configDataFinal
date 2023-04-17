@@ -1,5 +1,7 @@
 server:
   port: ${PORT:${SERVER_PORT:0}}
+  address: 192.168.0.102
+
 spring:
   mongodb:
     embedded:
