@@ -1,6 +1,6 @@
 server:
   port: ${PORT:8761}
-
+  address: 192.168.0.102
 spring:
   application:
     name: eurekaServer
